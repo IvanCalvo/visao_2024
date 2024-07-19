@@ -1,0 +1,4 @@
+Model,Accuracy
+LogisticRegression,0.7192
+KNN,0.7094
+KMeans,0.5067

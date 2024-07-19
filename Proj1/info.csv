@@ -1,0 +1,5 @@
+Model,Cat,Dog
+labels,1186,2489
+logistic,256,3419
+knn,792,2883
+kmeans,1052,2623
