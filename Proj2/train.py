@@ -9,8 +9,8 @@ from dataset import get_dataset
 
 def img_process(img):
     img_processed = img.permute(1,2,0)
-
-    bbox = [76, 76, 147, 147]
+    
+    bbox = [25, 25, 199, 199]
     patch = img_processed[bbox[0]:bbox[2], bbox[1]:bbox[3]]
     
     # Média de intensidade
